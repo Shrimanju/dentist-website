@@ -1,63 +1,42 @@
+
 .bottomblues{
-  // background: transparent linear-gradient(180deg, #FFFFFF 0%, #46C1BB 41%, #175C64 100%) 0% 0% no-repeat padding-box;
-    &__bottomblue1{
-      padding-top: 0%;
-      width:1349px;
-        height:100%;
+  width: 100%;
+  height:100%;
+  background: transparent linear-gradient(180deg, #FFFFFF 0%, #46C1BB 41%, #175C64 100%) 0% 0% no-repeat padding-box;
+      padding-top: 0%;  
          padding-bottom: 110px;
-        display: flex;
-        background: transparent linear-gradient(180deg, #FFFFFF 0%, #46C1BB 41%, #175C64 100%) 0% 0% no-repeat padding-box;
-      //  text-align: center;
-        // padding-left: -110%;
+     
+         z-index: 10;
+}
+        .schedule-heading{
+          padding-top: 200px;
+          padding-bottom:50px;
+     margin-left: -50px;
+          display: flex;
+          justify-content: center;
+          letter-spacing: 10px;
+          font-weight: bolder;
+          color: white;
+        //  font-size: 60px;
+          font-family: sans-serif;
+        }
+        
+@media (min-width: 568px) 
+{
 
-        &__schedule{
+   h1
+   {
+       font-size:44px;
+   }
+}
+@media (min-width: 1068px) 
+{
 
-padding-top: 250px;
-padding-left: 180px;
-padding-bottom: 0%;
-display: flex;
-
-font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 98px/132px SF UI Display;
-text-align: center;
-font: normal normal bold 70px/72px SF UI Display;
-
-letter-spacing: 20.38px;
-color: #FFFFFF;
-text-transform: uppercase;
-white-space: nowrap;
-font-family: sans-serif;
-vertical-align: middle;
-opacity: 1;
-        }  
-        &__inputfield1{
-            // flex-direction: column;
-           position: relative;
-            float:left;
-          padding-top: 90px;
-          // padding-bottom:-15%;
-          // margin-bottom: -8%;
-          padding-top:70px;
-padding-left:370px;
-width: 1300px;
-height: 10px;
-opacity: 1;   
-        }  
-        &__inputfield2{
-            flex-direction: column;
-            display: inline-block;
-            padding-left:370px;
-            padding-top:70px;
-            width: 1300px;
-            height: 10px;
-            opacity: 1;  
-            padding-bottom: 5%;
-        }      
-          
-
-
-    }}
- 
-
+   h1
+   {
+       font-size:54px;
+   }
+}
     input::-webkit-input-placeholder {
       font-family: sans-serif;
       color:white;
@@ -79,26 +58,30 @@ input {
     display: inline-block; /* 1. oh noes, my inputs are styled as block... */
 
   }
-  .input {
-    width:250px;
-    height: 40px;
+  .inputs11 {
+    text-align: center;
+   width: 240px;
+   height:50px ;  
+  border:none;
+  display: inline-flex;
+  border-bottom: 1px solid rgb(196, 194, 194);
+  background-color: transparent;
+  outline: none;
+ padding-right: 1%;
+ margin-right: 4%;
+ 
+
+    
+}
+.inputs2 {
+  
   border:none;
   border-bottom: 1px solid rgb(196, 194, 194);
   background-color: transparent;
   outline: none;
  padding-right: 1%;
  margin-right: 4%;
-    
-}
-.input1 {
-  width:250px;
-  height: 40px;
-border:none;
-border-bottom: 1px solid rgb(196, 194, 194);
-background-color: transparent;
-outline: none;
-
-  
+ display: inline-flex; 
 }
 
 
@@ -108,13 +91,10 @@ outline: none;
   height: 33px;
   box-shadow: none !important;
   border: none;
- white-space: nowrap;
-;
-margin-left: 370px;
-;
+margin-bottom: 10px;
+ margin-top: 19px;
  margin-right: 3%;
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 22px/28px SF UI Display;
-letter-spacing: var(--unnamed-character-spacing-0);
+ margin-left: -4%;
 text-align: left;
 font: normal normal bold 12px/18px SF UI Display;
 padding-left: 105px;
@@ -134,8 +114,6 @@ color: #2B8987;
   box-shadow: none !important;
   margin-top: 0px;
   border: none;
- white-space: nowrap;
-
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 22px/28px SF UI Display;
 letter-spacing: var(--unnamed-character-spacing-0);
 text-align: left;

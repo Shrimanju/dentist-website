@@ -1,5 +1,5 @@
 import React from 'react';
-import '../worldclassexperience/worldclassexperience.css'
+import '../worldclassexperience/worldclassexperience.scss'
 import 'swiper/swiper.scss';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import secondImg from '../../assets/2.png';

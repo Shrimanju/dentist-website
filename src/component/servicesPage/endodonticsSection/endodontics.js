@@ -5,7 +5,8 @@ import rc from "../../../assets/root_canal.png"
 import chat from "../../../assets/chat.png"
 
 function endodontics(){
-    return (<div id="section-1">
+    return (
+    <div id="section-1">
         <div className="row">
         <div id="othediv1" className="col-lg-8"></div>
         <div  id="greenbox" className="col-lg-4">

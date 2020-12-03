@@ -4,35 +4,36 @@ function Submitform() {
   return (
     <div>
       <div className='bottomblues'>
-        <div className='bottomblues__bottomblue1'>
-          <div>
-            <div className='bottomblues__bottomblue1__schedule'>Schedule a visit</div>
+     
+            <h1 className='schedule-heading'>SCHEDULE A VISIT</h1>
             <div>
+              <center>
               <form>
-                <div >
-                  <div className='bottomblues__bottomblue1__inputfield1'>
+                <div>
+                  <div className='bottomblues__inputfield1'>
                     <input
 
-                      className='input'
+                      className='inputs11'
                       placeholder='Name'
+                      
                       type="text"
 
                     />
                     <input
-                      className='input1'
+                      className='inputs11'
                       placeholder='Phone'
                       type="text"
                     />
                   </div>
                 </div>
-                <div className='bottomblues__bottomblue1__inputfield2'>
+                <div className='bottomblues__inputfield2'>
                   <div> <input
-                    className='input'
+                    className='inputs11'
                     placeholder='Date'
                     type="text"
                   />
                     <input
-                      className='input1'
+                      className='inputs11'
                       placeholder='Service Required'
                       type="text"
                     /></div>
@@ -52,18 +53,13 @@ function Submitform() {
                     </button>
                 </div>
               </form>
+              </center>
             </div>
             
           </div>
         </div>
-      </div>
-    </div>
+      
+ 
   );
 }
 export default Submitform;
-
-
-
-
-
-
